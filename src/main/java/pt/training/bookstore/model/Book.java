@@ -5,7 +5,7 @@ import java.util.Date;
 
 @Entity
 public class Book {
-    // Attributes
+    // Attributes/
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
