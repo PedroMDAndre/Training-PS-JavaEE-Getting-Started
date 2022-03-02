@@ -1,12 +1,26 @@
 package pt.training.bookstore.repository;
 
+import org.jboss.arquillian.container.test.api.Deployment;
+import org.jboss.arquillian.junit.Arquillian;
+import org.jboss.shrinkwrap.api.ShrinkWrap;
+import org.jboss.shrinkwrap.api.asset.EmptyAsset;
+import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
-
+@RunWith(Arquillian.class)
 public class BookRepositoryTest {
 
     @Test
-    public void shouldGetNoBook() {
+    public void create() throws Exception {
+
+    }
+
+    @Deployment
+    public static JavaArchive createDeployment() {
+        return ShrinkWrap.create(JavaArchive.class)
+                .addClass(BookRepository.class)
+                .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
 
     }
 
