@@ -28,7 +28,29 @@ public class Book {
     public Book() {
     }
 
+    public Book(String isbn,
+                String title,
+                Float unitCost,
+                Integer nrOfPages,
+                Language language,
+                Date publicationDate,
+                String imageUrl,
+                String description) {
+        this.isbn = isbn;
+        this.title = title;
+        this.unitCost = unitCost;
+        this.nrOfPages = nrOfPages;
+        this.language = language;
+        this.publicationDate = publicationDate;
+        this.imageUrl = imageUrl;
+        this.description = description;
+    }
+
     // Methods
+    public Long getId() {
+        return id;
+    }
+
     public String getTitle() {
         return title;
     }

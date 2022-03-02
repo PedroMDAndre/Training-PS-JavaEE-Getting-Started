@@ -9,7 +9,7 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.java>1.8</version.java>
-        <version.javaee>8.0</version.javaee>
+        <version.javaee>7.0</version.javaee>
         <!--  Test  -->
         <version.junit>4.12</version.junit>
         <version.arquillian>1.4.1.Final</version.arquillian>
