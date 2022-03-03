@@ -10,6 +10,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import pt.training.bookstore.model.Book;
 import pt.training.bookstore.model.Language;
+import pt.training.bookstore.util.IsbnGeneratorImpl;
+import pt.training.bookstore.util.NumberGenerator;
+import pt.training.bookstore.util.TextUtil;
 
 import javax.inject.Inject;
 import java.util.Date;
@@ -61,10 +64,11 @@ public class BookRepositoryTest {
         Assert.assertNotNull(bookId);
 
         // Find created book
-        Book foundBook = bookRepository.find(bookId);
+        Book bookFound = bookRepository.find(bookId);
 
         // Check the found book
-        Assert.assertEquals(book.getTitle(), foundBook.getTitle());
+        Assert.assertEquals(book.getTitle(), bookFound.getTitle());
+        Assert.assertTrue(bookFound.getIsbn().startsWith("13"));
 
         // Testing counting books
         Assert.assertEquals(Long.valueOf(1), bookRepository.countAll());
@@ -84,6 +88,9 @@ public class BookRepositoryTest {
                 .addClass(BookRepository.class)
                 .addClass(Book.class)
                 .addClass(Language.class)
+                .addClass(TextUtil.class)
+                .addClass(NumberGenerator.class)
+                .addClass(IsbnGeneratorImpl.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
                 .addAsManifestResource("META-INF/test-persistence.xml", "persistence.xml");
     }

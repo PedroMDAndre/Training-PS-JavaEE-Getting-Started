@@ -1,7 +1,10 @@
 package pt.training.bookstore.repository;
 
 import pt.training.bookstore.model.Book;
+import pt.training.bookstore.util.NumberGenerator;
+import pt.training.bookstore.util.TextUtil;
 
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
@@ -19,12 +22,20 @@ public class BookRepository {
     @PersistenceContext(unitName = "bookStorePU")
     private EntityManager em;
 
-    public Book find(@NotNull @Min(10) Long id) {
+    @Inject
+    private TextUtil textUtil;
+
+    @Inject
+    private NumberGenerator numberGenerator;
+
+    public Book find(@NotNull Long id) {
         return em.find(Book.class, id);
     }
 
     @Transactional(REQUIRED)
     public Book create(@NotNull Book book) {
+        book.setTitle(textUtil.sanitize(book.getTitle()));
+        book.setIsbn(numberGenerator.generateNumber());
         em.persist(book);
         return book;
     }
