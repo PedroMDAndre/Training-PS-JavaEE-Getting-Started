@@ -20,6 +20,25 @@ public class BookRepositoryTest {
     @Inject
     private BookRepository bookRepository;
 
+    @Test(expected = Exception.class)
+    public void findWithInvalidID(){
+        bookRepository.find(null);
+    }
+
+    @Test(expected = Exception.class)
+    public void createInvalidBook(){
+        // Create Book
+        Book book = new Book("isbn",
+                null,
+                20.0F,
+                300,
+                Language.ENGLISH,
+                new Date(),
+                "http://bookstore.com/book.jpg",
+                "The author...");
+        book = bookRepository.create(book);
+    }
+
     @Test
     public void create() throws Exception {
         // Testing counting books
@@ -45,7 +64,7 @@ public class BookRepositoryTest {
         Book foundBook = bookRepository.find(bookId);
 
         // Check the found book
-        Assert.assertEquals(book.getTitle(),foundBook.getTitle());
+        Assert.assertEquals(book.getTitle(), foundBook.getTitle());
 
         // Testing counting books
         Assert.assertEquals(Long.valueOf(1), bookRepository.countAll());
@@ -67,7 +86,6 @@ public class BookRepositoryTest {
                 .addClass(Language.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
                 .addAsManifestResource("META-INF/test-persistence.xml", "persistence.xml");
-
     }
 
 }

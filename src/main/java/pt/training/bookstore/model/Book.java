@@ -1,6 +1,10 @@
 package pt.training.bookstore.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 @Entity
@@ -9,19 +13,36 @@ public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
     @Column(length = 200)
+    @NotNull
+    @Size(min = 1, max = 200)
     private String title;
+
     @Column(length = 10000)
+    @Size(min = 1, max = 10000)
     private String description;
+
+    @NotNull
+    @Min(1)
     private Float unitCost;
+
+    @NotNull
+    @Size(min = 1, max = 50)
     private String isbn;
+
     @Column(name = "publication_date")
     @Temporal(TemporalType.DATE)
+    @Past
     private Date publicationDate;
+
     @Column(name = "nr_of_pages")
     private Integer nrOfPages;
+
     @Column(name = "image_url")
     private String imageUrl;
+
+    @Enumerated
     private Language language;
 
     // Constructor
