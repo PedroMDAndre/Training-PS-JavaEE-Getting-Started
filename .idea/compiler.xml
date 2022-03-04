@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bookstore-back" options="-endorseddirs D:\bookstore\bookstore-back\target/endorsed" />
+      <module name="bookstore-back" options="-endorseddirs D:\bookstore\Training-PS-JavaEE-Getting-Started\target/endorsed" />
     </option>
   </component>
 </project>
