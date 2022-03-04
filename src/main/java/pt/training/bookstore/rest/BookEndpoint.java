@@ -36,8 +36,9 @@ public class BookEndpoint {
     public Response getBook(@PathParam("id") @Min(1) Long id) {
         Book book = bookRepository.find(id);
 
-        if (book == null)
+        if (book == null) {
             return Response.status(Response.Status.NOT_FOUND).build();
+        }
 
         return Response.ok(book).build();
     }
@@ -54,8 +55,9 @@ public class BookEndpoint {
     public Response getBooks() {
         List<Book> books = bookRepository.findAll();
 
-        if (books.size() == 0)
+        if (books.isEmpty()) {
             return Response.status(Response.Status.NO_CONTENT).build();
+        }
 
         return Response.ok(books).build();
     }
@@ -66,8 +68,9 @@ public class BookEndpoint {
     public Response countBooks() {
         Long nbOfBooks = bookRepository.countAll();
 
-        if (nbOfBooks == 0)
+        if (nbOfBooks == 0) {
             return Response.status(Response.Status.NO_CONTENT).build();
+        }
 
         return Response.ok(nbOfBooks).build();
     }
