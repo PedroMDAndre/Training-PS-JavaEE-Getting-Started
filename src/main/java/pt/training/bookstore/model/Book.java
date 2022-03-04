@@ -11,7 +11,7 @@ import java.util.Date;
 public class Book {
     // Attributes/
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue
     private Long id;
 
     @Column(length = 200)
@@ -23,10 +23,11 @@ public class Book {
     @Size(min = 1, max = 10000)
     private String description;
 
-    @NotNull
+    @Column(name = "unit_cost")
     @Min(1)
     private Float unitCost;
 
+    @Column(length = 50)
     @NotNull
     @Size(min = 1, max = 50)
     private String isbn;
@@ -36,8 +37,8 @@ public class Book {
     @Past
     private Date publicationDate;
 
-    @Column(name = "nr_of_pages")
-    private Integer nrOfPages;
+    @Column(name = "nb_of_pages")
+    private Integer nbOfPages;
 
     @Column(name = "image_url")
     private String imageUrl;
@@ -52,7 +53,23 @@ public class Book {
     public Book(String isbn,
                 String title,
                 Float unitCost,
-                Integer nrOfPages,
+                Integer nbOfPages,
+                Language language,
+                String imageUrl,
+                String description) {
+        this.isbn = isbn;
+        this.title = title;
+        this.unitCost = unitCost;
+        this.nbOfPages = nbOfPages;
+        this.language = language;
+        this.imageUrl = imageUrl;
+        this.description = description;
+    }
+
+    public Book(String isbn,
+                String title,
+                Float unitCost,
+                Integer nbOfPages,
                 Language language,
                 Date publicationDate,
                 String imageUrl,
@@ -60,7 +77,7 @@ public class Book {
         this.isbn = isbn;
         this.title = title;
         this.unitCost = unitCost;
-        this.nrOfPages = nrOfPages;
+        this.nbOfPages = nbOfPages;
         this.language = language;
         this.publicationDate = publicationDate;
         this.imageUrl = imageUrl;
@@ -112,12 +129,12 @@ public class Book {
         this.publicationDate = publicationDate;
     }
 
-    public Integer getNrOfPages() {
-        return nrOfPages;
+    public Integer getNbOfPages() {
+        return nbOfPages;
     }
 
-    public void setNrOfPages(Integer nrOfPages) {
-        this.nrOfPages = nrOfPages;
+    public void setNbOfPages(Integer nbOfPages) {
+        this.nbOfPages = nbOfPages;
     }
 
     public String getImageUrl() {
@@ -145,7 +162,7 @@ public class Book {
                 ", unitCost=" + unitCost +
                 ", isbn='" + isbn + '\'' +
                 ", publicationDate=" + publicationDate +
-                ", nrOfPages=" + nrOfPages +
+                ", nrOfPages=" + nbOfPages +
                 ", imageUrl='" + imageUrl + '\'' +
                 ", language=" + language +
                 '}';
