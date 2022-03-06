@@ -17,11 +17,8 @@ import pt.training.bookstore.util.IsbnGeneratorImpl;
 import pt.training.bookstore.util.NumberGenerator;
 import pt.training.bookstore.util.TextUtil;
 
-import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.Response;
-
-import java.util.Date;
 
 import static javax.ws.rs.core.MediaType.*;
 import static javax.ws.rs.core.Response.Status.*;
@@ -32,14 +29,14 @@ public class BookEndpointTest {
     private static Response response;
 
     @Test
-    public void shouldGetNoBook(@ArquillianResteasyResource("api/books") WebTarget webTarget)  {
+    public void shouldGetNoBook(@ArquillianResteasyResource("api/books") WebTarget webTarget) {
 
         // Test counting books
         response = webTarget.path("count").request().get();
         Assert.assertEquals(NO_CONTENT.getStatusCode(), response.getStatus());
 
         // Test find all
-        response = webTarget.request(APPLICATION_JSON_TYPE).get();
+        response = webTarget.request(APPLICATION_JSON).get();
         Assert.assertEquals(NO_CONTENT.getStatusCode(), response.getStatus());
 
     }
