@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14b58176-8805-4a52-ae89-bd999bb4612b" name="Changes" comment="setup swagger">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/swagger.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25urQ3rnWRNp7TClh2u2oGKQFmA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demos/demos/demos/bookstore-back" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bookstore\Training-PS-JavaEE-Getting-Started\src\main\java\pt\training\bookstore\rest" />
+      <recent name="D:\bookstore\Training-PS-JavaEE-Getting-Started\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Shell Script.Deploy">
+    <configuration name="BookEndpointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookstore-back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.training.bookstore.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.training.bookstore.rest" />
+      <option name="MAIN_CLASS_NAME" value="pt.training.bookstore.rest.BookEndpointTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookEndpointTest.createBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookstore-back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.training.bookstore.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.training.bookstore.rest" />
+      <option name="MAIN_CLASS_NAME" value="pt.training.bookstore.rest.BookEndpointTest" />
+      <option name="METHOD_NAME" value="createBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookEndpointTest.shouldGetNoBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookstore-back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.training.bookstore.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.training.bookstore.rest" />
+      <option name="MAIN_CLASS_NAME" value="pt.training.bookstore.rest.BookEndpointTest" />
+      <option name="METHOD_NAME" value="shouldGetNoBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookstore-back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.training.bookstore.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.training.bookstore.repository" />
+      <option name="MAIN_CLASS_NAME" value="pt.training.bookstore.repository.BookRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookRepositoryTest.createDeployment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookstore-back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.training.bookstore.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.training.bookstore.repository" />
+      <option name="MAIN_CLASS_NAME" value="pt.training.bookstore.repository.BookRepositoryTest" />
+      <option name="METHOD_NAME" value="createDeployment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Deploy" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="mvn clean package &amp;&amp; copy /y C:\Java\wildfly-26.0.1.Final\standalone\deployments" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BookEndpointTest" />
+      <item itemvalue="JUnit.BookEndpointTest.createBook" />
+      <item itemvalue="JUnit.BookEndpointTest.shouldGetNoBook" />
+      <item itemvalue="JUnit.BookRepositoryTest" />
+      <item itemvalue="JUnit.BookRepositoryTest.createDeployment" />
+      <item itemvalue="Shell Script.Deploy" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookEndpointTest" />
+        <item itemvalue="JUnit.BookEndpointTest.shouldGetNoBook" />
+        <item itemvalue="JUnit.BookEndpointTest.createBook" />
+        <item itemvalue="JUnit.BookRepositoryTest" />
+        <item itemvalue="JUnit.BookRepositoryTest.createDeployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14b58176-8805-4a52-ae89-bd999bb4612b" name="Changes" comment="" />
+      <created>1646387794258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646387794258</updated>
+    </task>
+    <task id="LOCAL-00001" summary="cleanup">
+      <created>1646388166595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646388166595</updated>
+    </task>
+    <task id="LOCAL-00002" summary="configure rest">
+      <created>1646389935761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646389935761</updated>
+    </task>
+    <task id="LOCAL-00003" summary="configure rest">
+      <created>1646390928239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646390928239</updated>
+    </task>
+    <task id="LOCAL-00004" summary="REST">
+      <created>1646579278348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646579278348</updated>
+    </task>
+    <task id="LOCAL-00005" summary="setup swagger">
+      <created>1646581493243</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646581493243</updated>
+    </task>
+    <task id="LOCAL-00006" summary="setup swagger">
+      <created>1646582704450</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646582704450</updated>
+    </task>
+    <task id="LOCAL-00007" summary="setup swagger">
+      <created>1646596820560</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646596820560</updated>
+    </task>
+    <task id="LOCAL-00008" summary="setup swagger">
+      <created>1646596856567</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646596856567</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="configure rest" />
+    <MESSAGE value="REST" />
+    <MESSAGE value="setup swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup swagger" />
+  </component>
+</project>
