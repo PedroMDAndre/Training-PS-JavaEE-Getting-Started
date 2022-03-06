@@ -26,7 +26,9 @@ public class BookEndpoint {
     @Consumes(APPLICATION_JSON)
     public Response createBook(Book book, @Context UriInfo uriInfo) {
         book = bookRepository.create(book);
-        URI createdURI = uriInfo.getAbsolutePathBuilder().path(book.getId().toString()).build();
+        URI createdURI = uriInfo.getAbsolutePathBuilder()
+                .path(book.getId().toString())
+                .build();
         return Response.created(createdURI).build();
     }
 
