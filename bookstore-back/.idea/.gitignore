@@ -1,2 +1,3 @@
 # Default ignored files
-/bookstore-back/target/
+/shelf/
+../target

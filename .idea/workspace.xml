@@ -4,54 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83009ced-90f7-4597-9434-3cc33cdb992a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/training/bookstore/model/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/training/bookstore/model/Language.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/training/bookstore/repository/BookRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/training/bookstore/rest/BookEndpoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/training/bookstore/rest/JAXRSConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/training/bookstore/util/IsbnGeneratorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/training/bookstore/util/NumberGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/training/bookstore/util/TextUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/oauth2-redirect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui-bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui-es-bundle-core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui-es-bundle-core.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui-es-bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui-es-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui-standalone-preset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui-standalone-preset.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/swagger-ui.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pt/training/bookstore/repository/BookRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pt/training/bookstore/rest/BookEndpointTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/META-INF/test-persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/arquillian.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="83009ced-90f7-4597-9434-3cc33cdb992a" name="Changes" comment="update structure with frontend" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +48,14 @@
       <option name="presentableId" value="Default" />
       <updated>1646611211965</updated>
     </task>
+    <task id="LOCAL-00001" summary="update structure with frontend">
+      <created>1646611879483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646611879483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update structure with frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="update structure with frontend" />
   </component>
 </project>
