@@ -1,1 +1,0 @@
-mvn clean package && copy target\bookstore-back.war /y C:\Java\wildfly-26.0.1.Final\standalone\deployments
