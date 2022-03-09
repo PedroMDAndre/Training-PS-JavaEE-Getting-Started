@@ -6,14 +6,17 @@ https://app.pluralsight.com/library/courses/java-ee-getting-started/description
 
 Course author : Antonio Goncalves
 
-
+## Requirements
 To run it is necessary:
 * JDK 8
 * WildFly 26.0.1.Final
   * Working directory: C:\Java\wildfly-26.0.1.Final\
 
-To run the integration tests it is necessary to run WildFly and deploy the project
+## Considerations
+### Testing
+* To run the integration tests it is necessary to run WildFly and deploy the project
 
+### Swagger
 * Define user variable SWAGGER = C:\Java\Swagger
 ** folder most have the swagger-codegen JAR file
 
