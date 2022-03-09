@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b58176-8805-4a52-ae89-bd999bb4612b" name="Changes" comment="setup swagger">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="14b58176-8805-4a52-ae89-bd999bb4612b" name="Changes" comment="add REST service">
+      <change beforePath="$PROJECT_DIR$/../bookstore-front/src/app/book-detail/book-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore-front/src/app/book-detail/book-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookstore-front/src/app/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore-front/src/app/book-list/book-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookstore-front/src/app/service/api/book.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore-front/src/app/service/api/book.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +22,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25urQ3rnWRNp7TClh2u2oGKQFmA" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -37,7 +39,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demos/demos/demos/bookstore-back" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -124,17 +126,6 @@
       <option name="MAIN_CLASS_NAME" value="pt.training.bookstore.repository.BookRepositoryTest" />
       <option name="METHOD_NAME" value="createDeployment" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646599263299</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add REST service">
+      <created>1646786195163</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646786195163</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +276,7 @@
     <MESSAGE value="configure rest" />
     <MESSAGE value="REST" />
     <MESSAGE value="setup swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup swagger" />
+    <MESSAGE value="add REST service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add REST service" />
   </component>
 </project>

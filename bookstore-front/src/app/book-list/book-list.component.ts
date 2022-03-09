@@ -11,7 +11,7 @@ import { Book } from '../service/model/Book';
 })
 export class BookListComponent implements OnInit {
 
-  nbBooks: number = 2;
+  nbBooks: number = 0;
   books: Book[] = [];
 
 

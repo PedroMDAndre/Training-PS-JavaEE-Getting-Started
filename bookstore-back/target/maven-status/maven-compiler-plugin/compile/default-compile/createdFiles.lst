@@ -2,6 +2,7 @@ pt\training\bookstore\model\Language.class
 pt\training\bookstore\repository\BookRepository.class
 pt\training\bookstore\rest\BookEndpoint.class
 pt\training\bookstore\util\TextUtil.class
+pt\training\bookstore\CORSFilter.class
 pt\training\bookstore\model\Book.class
 pt\training\bookstore\rest\JAXRSConfiguration.class
 pt\training\bookstore\util\IsbnGeneratorImpl.class

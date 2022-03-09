@@ -41,7 +41,7 @@ public class BookRepository {
     }
 
     @Transactional(REQUIRED)
-    public void delete(@NotNull @Min(1) @Max(1000) Long id) {
+    public void delete(@NotNull @Min(1) Long id) {
         em.remove(em.getReference(Book.class, id));
     }
 

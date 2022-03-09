@@ -61,7 +61,7 @@ export class BookService {
         if (body === null || body === undefined) {
             throw new Error('Required parameter body was null or undefined when calling createBook.');
         }
-        
+
         return this.http.post(path, body);
     }
 
@@ -70,12 +70,12 @@ export class BookService {
      * 
      * @param id 
      */
-    public deleteBook(id: number): Observable<{}> {
+    public deleteBook(id: number | undefined): Observable<{}> {
         const path = this.basePath + '/books/{id}'
             .replace('{' + 'id' + '}', String(id));
 
         // verify required parameter 'id' is not null or undefined
-        if (id === null || id === undefined) {
+        if (!id) {
             throw new Error('Required parameter id was null or undefined when calling deleteBook.');
         }
 
@@ -95,7 +95,7 @@ export class BookService {
         if (id === null || id === undefined) {
             throw new Error('Required parameter id was null or undefined when calling getBook.');
         }
-        
+
         return this.http.get<Book>(path);
     }
 
