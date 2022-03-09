@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { map, switchMap } from 'rxjs';
 import { BookService } from '../service/api/book.service';
-import { Book } from '../service/model/Book';
+import { Book } from '../service/model/book';
 
 @Component({
   selector: 'bs-book-detail',

@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14b58176-8805-4a52-ae89-bd999bb4612b" name="Changes" comment="add REST service">
-      <change beforePath="$PROJECT_DIR$/../bookstore-front/src/app/book-detail/book-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore-front/src/app/book-detail/book-detail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookstore-front/src/app/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore-front/src/app/book-list/book-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookstore-front/src/app/service/api/book.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore-front/src/app/service/api/book.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -272,6 +271,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="cleanup" />
     <MESSAGE value="configure rest" />
     <MESSAGE value="REST" />

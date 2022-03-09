@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { BookService } from '../service/api/book.service';
-import { Book } from '../service/model/Book';
+import { Book } from '../service/model/book';
 
 @Component({
   selector: 'bs-book-form',
