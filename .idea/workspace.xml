@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83009ced-90f7-4597-9434-3cc33cdb992a" name="Changes" comment="update structure with frontend" />
+    <list default="true" id="83009ced-90f7-4597-9434-3cc33cdb992a" name="Changes" comment="update structure with frontend">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-back/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +40,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bookstore-back" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
